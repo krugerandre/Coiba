@@ -1,13 +1,25 @@
-nav {
-text-align: center;
+.navbar ul {
+list-style-type: none;
 padding: 0px;
-font-size: 10px;
-font-display: white;
+margin: 0px;
+background-color: black;
+overflow: hidden;
 display: block;
 }
 h1 {
-font-style: bold;
-font-size: large;
-text-align: center;
-color: turquoise;
+text-align: left;
+color: black;
+}
+.navbar li {
+    float: left;
+}
+.navbar a {
+padding: 10px;
+color: white;
+margin: 15px;
+width: 100%;
+}
+img {
+padding: 0;
+margin-right: 0%;
 }
